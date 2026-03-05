@@ -3,7 +3,7 @@
 This repository contains my solution for the JetBrains Web Development Backend Technical Writing Internship test tasks.
 
 ## Quick links
-- **Main article (Markdown):** `docs/captcha-rules.md`
+- **Main article (Markdown):** [docs/captcha-rules.md](docs/captcha-rules.md)
 
 ## Repository structure
 - `docs/`
