@@ -173,12 +173,12 @@ These images are included as reference examples for non-developers.
 ## Quick decision flow (high level)
 
 ```mermaid
-flowchart TD
-  A[Incoming request] --> B{Any trigger rule matches?}
-  B -- No --> C[Allow request without CAPTCHA]
-  B -- Yes --> D[Require CAPTCHA]
-  D --> E[User completes CAPTCHA]
-  E --> F[Continue request flow]
+flowchart TD;
+  A[Incoming request] --> B{Any trigger rule matches?};
+  B -- No --> C[Allow request without CAPTCHA];
+  B -- Yes --> D[Require CAPTCHA];
+  D --> E[User completes CAPTCHA];
+  E --> F[Continue request flow];
 ```
 
 ---
