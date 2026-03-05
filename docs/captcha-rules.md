@@ -179,6 +179,7 @@ flowchart TD
   B -- Yes --> D[Require CAPTCHA]
   D --> E[User completes CAPTCHA]
   E --> F[Continue request flow]
+```
 
 ---
 
@@ -240,6 +241,7 @@ Do not include passwords, tokens, secrets, or sensitive personal data. Follow in
   "triggered_rules": ["RULE_1_IP_RATE", "RULE_4_REPEAT_PAYLOAD"],
   "hour_bucket": "2026-03-05T10:00:00Z"
 }
+```
 
 ### Example: Request payload (sanitized)
 ```json
@@ -250,6 +252,7 @@ Do not include passwords, tokens, secrets, or sensitive personal data. Follow in
     "message": "Example text"
   }
 }
+```
 
 ### Example: Admin panel configuration (manual enable)
 ```yaml
@@ -259,3 +262,4 @@ captcha:
     scope:
       - endpoint: "/submit"
       - form_id: "feedback_form_v2"
+```
